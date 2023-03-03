@@ -11,15 +11,14 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  // url: 'https://priohelp.github.io',
-  url: 'https://help.otoowms.com',
+  url: 'https://priohelp.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
-  // GitHub pages deployment config.
+  // GitHub pages deployment config.a
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'priohelp.github.io', // Usually your GitHub org/user name.
+  organizationName: 'priohelp', // Usually your GitHub org/user name.
   projectName: 'otoo-help-default', // Usually your repo name.
   trailingSlash: false,
 
