@@ -36,13 +36,6 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // editUrl:
-          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
-        blog: {
-          showReadingTime: true,
-          // editUrl:
-          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -55,7 +48,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'OTOO help',
+        title: 'OTOO HELP',
         logo: {
           alt: 'OTOO help Logo',
           src: 'img/logo/otoo.png',
@@ -63,9 +56,15 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'wms/intro',
             position: 'left',
-            label: '메뉴얼',
+            label: 'WMS',
+          },
+          {
+            type: 'doc',
+            docId: 'ilnawa/intro',
+            position: 'left',
+            label: '근태관리',
           },
           // {
           //   href: 'https://github.com/facebook/docusaurus',
@@ -81,13 +80,17 @@ const config = {
             title: 'Menual',
             items: [
               {
-                label: 'intro',
+                label: '소개',
                 to: '/docs/intro',
               },
-              // {
-              //   label: 'GitHub',
-              //   href: 'https://github.com/facebook/docusaurus',
-              // },
+              {
+                label: 'WMS',
+                to: '/docs/wms/intro',
+              },
+              {
+                label: '근태관리',
+                to: '/docs/ilnawa/intro',
+              },
             ],
           },
           {

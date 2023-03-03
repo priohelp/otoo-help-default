@@ -16,9 +16,14 @@ function HomepageHeader() {
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro">
-            메뉴얼 확인하기
+            className={clsx("button button--secondary button--lg", styles.button)}
+            to="/docs/wms/intro">
+            WMS 메뉴얼
+          </Link>
+          <Link
+            className={clsx("button button--secondary button--lg", styles.button)}
+            to="/docs/ilnawa/intro">
+            근태관리 메뉴얼
           </Link>
         </div>
       </div>
