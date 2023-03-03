@@ -18,7 +18,7 @@ const config = {
 
   // GitHub pages deployment config.a
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'priohelp', // Usually your GitHub org/user name.
+  organizationName: '', // Usually your GitHub org/user name.
   projectName: 'otoo-help-default', // Usually your repo name.
   trailingSlash: false,
 
