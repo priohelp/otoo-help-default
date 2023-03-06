@@ -1,0 +1,14 @@
+{
+  "title": {
+    "message": "OTOO HELP",
+    "description": "The title in the navbar"
+  },
+  "item.label.WMS": {
+    "message": "WMS",
+    "description": "Navbar item with label WMS"
+  },
+  "item.label.근태관리": {
+    "message": "근태관리",
+    "description": "Navbar item with label 근태관리"
+  }
+}
