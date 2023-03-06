@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# 일나와 테스트 화면입니다.
+# 일나와d 테스트 화면입니다.
 
 초기 **테스트 화면입니다.**.
 
@@ -14,10 +14,10 @@ sidebar_position: 1
 ## 단계 테스트
 ### 단계 테스트
 
-- grade1
-  - grade2
-    - grade3
-      - grade4
+- grade10
+  - grade20
+    - grade30
+      - grade40
 
 ## 복사테스트
 
