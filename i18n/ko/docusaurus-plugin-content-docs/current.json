@@ -1,0 +1,14 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.wms.category.출고": {
+    "message": "출고",
+    "description": "The label for category 출고 in sidebar wms"
+  },
+  "sidebar.wms.category.출고.link.generated-index.title": {
+    "message": "출고",
+    "description": "The generated-index page title for category 출고 in sidebar wms"
+  }
+}
