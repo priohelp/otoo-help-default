@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 ---
-# ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ
+# asdasdasd
 출고관리 화면입니다.
 -- --
 ## 출고처리
@@ -44,6 +44,4 @@ sidebar_position: 1
 
 피킹 완료한 출고 건에 대해 확정 합니다.    
 출고확정을 하게 되면 할당(작업) 걸린 수량이 차감되어 재고가 빠지게 됩니다.
-![출고확정](./img/tmp4.png)
-
-test test test
+![출고확정](./img/tmp4.png) 
