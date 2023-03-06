@@ -14,10 +14,10 @@ sidebar_position: 1
 ## 단계 테스트
 ### 단계 테스트
 
-- grade10
-  - grade20
-    - grade30
-      - grade40
+- grade100
+  - grade200
+    - grade300
+      - grade400
 
 ## 복사테스트
 
