@@ -1,18 +1,23 @@
 ---
 sidebar_position: 0
+toc_min_heading_level: 2
+toc_max_heading_level: 6
 ---
 
 # 테스트 화면입니다.
 
 초기 **테스트 화면입니다.**.
 
-**[링크테스트](http://prio.co.kr)**.
+**[마크다운 도움말](https://docusaurus.io/docs/markdown-features)**.
 
 ### 단계 테스트
 
 # 단계 테스트
 ## 단계 테스트
 ### 단계 테스트
+#### 단계 테스트
+##### 단계 테스트
+###### 단계 테스트
 
 - grade1
   - grade2
@@ -34,22 +39,80 @@ prio
 
 테스트 `프리오` 입**니**다.
 
-:::note
-노트 **테스트** 입니다.
-:::  
+:::note 타이틀
+note **테스트** _입_`니다.`
+:::
+:::tip 타이틀
+tip **테스트** _입_`니다.`
+:::
+:::info 타이틀
+info **테스트** _입_`니다.`
+:::
+:::caution 타이틀
+caution **테스트** _입_`니다.`
+:::
+:::danger 타이틀
+danger **테스트** _입_`니다.`
+:::
 
-:::tip
-팁 **테스트** 입니다.
-:::  
+### Details element example
 
-:::info
-정보 **테스트** 입니다.
-:::  
+<details>
+  <summary>Toggle me!</summary>
+  <div>
+    <div>This is the detailed content</div>
+    <br/>
+    <details>
+      <summary>
+        Nested toggle! Some surprise inside...
+      </summary>
+      <div>
+        😲😲😲😲😲
+      </div>
+    </details>
+  </div>
+</details>
 
-:::caution
-주의 **테스트** 입니다.
-:::  
 
-:::danger
-위험 **테스트** 입니다.
-:::  
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+:::info Use tabs in admonitions
+
+<Tabs>
+  <TabItem value="apple" label="Apple">This is an apple 🍎</TabItem>
+  <TabItem value="orange" label="Orange">This is an orange 🍊</TabItem>
+  <TabItem value="banana" label="Banana">This is a banana 🍌</TabItem>
+</Tabs>
+
+:::
+
+<details>
+<summary>Some details containing headings</summary>
+<h2 id="#heading-id">I'm a heading that will not show up in the TOC</h2>
+
+Some content...
+
+</details>
+
+### Hello World {#아이디지정}
+
+import TOCInline from '@theme/TOCInline';
+
+<TOCInline
+  // toc={toc.filter((node) => node.level === 2 || node.level === 4)}
+  toc={toc}
+  minHeadingLevel={2}
+  maxHeadingLevel={5}
+/>
+
+# Your Doc
+[사용자로가기](./wms/standard/S000010.mdx)
+
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```

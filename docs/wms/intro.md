@@ -1,12 +1,18 @@
 ---
 sidebar_position: 0
+description: WMS 시스템 메뉴얼
+title: 시작하기
+
+
 ---
 
-# ㄴ
+# OTOO Cloud 시작하기
 
-초기 **테스트 화면입니다.**.
+초기 **테스트 화면입니다**
 
-**[링크테스트](http://prio.co.kr)**.
+
+# **[`OTOO CLOUD 바로가기`](http://otoowms.com)**
+
 
 ### 단계 테스트
 
