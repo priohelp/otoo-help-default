@@ -62,7 +62,7 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'wms/intro',
+            docId: '/category/wms',
             position: 'left',
             label: 'WMS',
           },
