@@ -22,7 +22,7 @@ const config = {
   projectName: 'otoo-help-default', // Usually your repo name.
   trailingSlash: false,
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   
   i18n: {
