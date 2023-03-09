@@ -126,7 +126,7 @@ const config = {
         externalUrlRegex: 'external\\.com|domain\\.com',
         replaceSearchResultPathname: {
           from: '/docs/', // or as RegExp: /\/docs\//
-          to: '/',
+          to: '/docs/',
         },
         searchParameters: {},
         searchPagePath: 'search',
