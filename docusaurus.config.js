@@ -22,7 +22,7 @@ const config = {
   projectName: 'otoo-help-default', // Usually your repo name.
   trailingSlash: false,
 
-  onBrokenLinks: 'warn',
+  onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   
   i18n: {
@@ -86,7 +86,7 @@ const config = {
               },
               {
                 label: 'WMS',
-                to: '/docs/wms/intro',
+                to: '/docs/category/wms',
               },
               {
                 label: '근태관리',

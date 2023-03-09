@@ -17,7 +17,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className={clsx("button button--secondary button--lg", styles.button)}
-            to="/docs/wms/intro">
+            to="/docs/category/wms">
             WMS 메뉴얼
           </Link>
           <Link
