@@ -10,5 +10,21 @@
   "sidebar.wms.category.출고.link.generated-index.title": {
     "message": "출고",
     "description": "The generated-index page title for category 출고 in sidebar wms"
+  },
+  "sidebar.wms.category.WMS": {
+    "message": "WMS",
+    "description": "The label for category WMS in sidebar wms"
+  },
+  "sidebar.wms.category.WMS.link.generated-index.title": {
+    "message": "목록",
+    "description": "The generated-index page title for category WMS in sidebar wms"
+  },
+  "sidebar.wms.category.물류기준": {
+    "message": "물류기준",
+    "description": "The label for category 물류기준 in sidebar wms"
+  },
+  "sidebar.wms.category.물류기준.link.generated-index.title": {
+    "message": "물류기준",
+    "description": "The generated-index page title for category 물류기준 in sidebar wms"
   }
 }

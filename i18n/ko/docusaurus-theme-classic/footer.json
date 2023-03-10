@@ -13,7 +13,7 @@
   },
   "link.item.label.WMS": {
     "message": "WMS",
-    "description": "The label of footer link with label=WMS linking to /docs/wms/intro"
+    "description": "The label of footer link with label=WMS linking to /docs/category/wms"
   },
   "link.item.label.근태관리": {
     "message": "근태관리",
