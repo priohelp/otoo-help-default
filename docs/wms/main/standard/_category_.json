@@ -1,8 +1,8 @@
 {
-  "label": "물류기준",
+  "label": "기준정보",
   "position": 1,
   "link": {
     "type": "generated-index",
-    "title": "물류기준"
+    "title": "기준정보"
   }
 }
