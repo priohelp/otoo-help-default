@@ -1,0 +1,7 @@
+.videoCenter{
+    margin: 0 auto;
+    display: block;
+    width: 80%;
+    height: 400px;
+    text-align: center;
+}

@@ -2,7 +2,7 @@
   "label": "기준정보",
   "position": 1,
   "link": {
-    "type": "generated-index",
-    "title": "기준정보"
+    "type": "doc",
+    "id": "wms/main/standard/index"
   }
 }
