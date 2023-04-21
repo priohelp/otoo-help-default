@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkotoohelp=self.webpackChunkotoohelp||[]).push([[452],{3196:e=>{e.exports=JSON.parse('{"title":"\ubaa9\ub85d","slug":"/category/wms","permalink":"/docs/category/wms","navigation":{"next":{"title":"\uae30\uc900\uc815\ubcf4","permalink":"/docs/category/\uae30\uc900\uc815\ubcf4"}}}')}}]);
